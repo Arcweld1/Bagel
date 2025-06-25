@@ -1,4 +1,4 @@
-<p align="center">
+  <p align="center">
   <img src="https://lf3-static.bytednsdoc.com/obj/eden-cn/nuhojubrps/banner.png" alt="BAGEL" width="480"/>
 </p>
 
@@ -41,7 +41,7 @@
   </a>
   <a href="mailto:bagel@bytedance.com">
     <img
-      src="https://img.shields.io/badge/BAGEL-Email-D14836?logo=gmail&logoColor=red"
+      src="https://img.shields.io/badge/BAGEoL-Email-D14836?logo=gmail&logoColor=red"
       alt="BAGEL Email"
     />
   </a>
