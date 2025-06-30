@@ -1,6 +1,6 @@
 # Data prepration
 
-We provide data examples for **T2I**, **Editing**, and **VLM** tasks. The T2I dataset is generated using [FLUX.1‑dev](https://huggingface.co/black-forest-labs/FLUX.1-dev); the editing examples are randomly sampled from [SEED‑Data‑Edit‑Part3](https://huggingface.co/datasets/AILab-CVC/SEED-Data-Edit-Part2-3); and the VLM set is sourced from [LLaVA‑OneVision‑Data](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data).
+We provide data examples for **T2I**, **Editing**, and **VLM** tasks. The T2I dataset is generated using [FLUX.1‑dev][def]; the editing examples are randomly sampled from [SEED‑Data‑Edit‑Part3](https://huggingface.co/datasets/AILab-CVC/SEED-Data-Edit-Part2-3); and the VLM set is sourced from [LLaVA‑OneVision‑Data](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data).
 
 We offer examples in both raw-image folder and parquet shard formats. For other data formats, you can use our dataset code as a template and extend it as needed.
 
@@ -166,3 +166,5 @@ You are encouraged to adjust any of these hyperparameters to fit your GPU budget
 | `wandb_resume`   | `allow`               | Resumption policy if an existing run ID is detected. |
 
 > **Tip**  Export `WANDB_API_KEY` before launching if you want online dashboards.
+
+[def]: https://huggingface.co/black-forest-labs/FLUX.1-dev
